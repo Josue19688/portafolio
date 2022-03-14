@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>Advin Josue Vasquez Latin</title>
+  <base href="/">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portafolio personal Advin josue vasquez latin desarrollador web, movil.">
+	<meta name="keywords" content="Portafolio advin josue vasquez latin">
+	<meta name="author" content="Josue Vasquez">
+	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+	<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+	<!-- FAVICON -->
+	<link rel="icon" type="image/png" href="assets\images\favicon.png">
+    <!-- STYLESHEETS -->
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="assets\css\style.css">
+	<link rel="stylesheet" type="text/css" href="assets\css\accordian.css">
+	<link rel="stylesheet" href="assets\css\owl\owl.carousel.min.css">
+    <link rel="stylesheet" href="assets\css\owl\owl.theme.default.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800&display=swap" rel="stylesheet">
+	<!-- SCRIPTS -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="assets\js\smoothscroll.js"></script>
+    <script>
+    $("#navbarNav").on("click", "a", function () {
+       $(".navbar-toggle").click();
+       //or $("#nav").slideToggle();
+ });
+    </script>
+</head>
+<body>
+  <app-root></app-root>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	<script src="assets\js\owl\owl.carousel.js"></script>
+	<script src="assets\js\accordian.js"></script>
+  	<!-- Header scroll -->
+		<script type="text/javascript">
+				$(window).scroll(function() {
+				    if ($(this).scrollTop() > 20) {
+				      $('#navbar').addClass('header-scrolled');
+				    } else {
+				      $('#navbar').removeClass('header-scrolled');
+				    }
+				  });
+		</script>
+
+		<script>
+			$(document).ready(function(){
+			  $(".owl-carousel").owlCarousel({
+			  	items:4,
+			  	loop:true,
+			  	nav:true,
+			  	autoplay:true,
+			    autoplayTimeout:2000,
+			    autoplayHoverPause:true,
+			    responsiveClass:true,
+			    responsive:{
+			        0:{
+			            items:1
+			        },
+			        600:{
+			            items:3
+			        },
+			        1000:{
+			            items:4
+			        }
+			    }
+			  });
+			});
+	    </script>
+	</body>
+</html>
