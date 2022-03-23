@@ -10,6 +10,7 @@ import { ProyectosComponent } from './pages/proyectos/proyectos.component';
 import { OtrosProyectosComponent } from './pages/otros-proyectos/otros-proyectos.component';
 import { ColaboracionesComponent } from './pages/colaboraciones/colaboraciones.component';
 import { AppRoutingModulo } from './app-routing.module';
+import { PostsComponent } from './pages/posts/posts.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { AppRoutingModulo } from './app-routing.module';
     ConocimientosComponent,
     ProyectosComponent,
     OtrosProyectosComponent,
-    ColaboracionesComponent
+    ColaboracionesComponent,
+    PostsComponent
   ],
   imports: [
     BrowserModule,
